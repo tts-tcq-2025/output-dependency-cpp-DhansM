@@ -20,3 +20,10 @@ void testTshirtSize() {
     assert(size(43) == 'L');
     std::cout << "All is well (maybe!)\n";
 }
+
+void SecondLeveltestTshirtSize{
+    std::cout << "\nTshirt size test\n";
+    assert(size(38) == 'S');
+    assert(size(42) == 'M');
+    std::cout << "\nFailed test cases\n";
+}
