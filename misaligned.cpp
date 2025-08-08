@@ -38,7 +38,7 @@ std::string getColorMapText() {
     return oss.str();
 }
 
-void testSpecificPairs() {
+void testPrintColorMap() {
     std::string output = getColorMapText();
     
     // Assertions
@@ -53,6 +53,7 @@ void testSpecificPairs() {
 }
 
 int main() {
-    testSpecificPairs();
+    testPrintColorMap();
     return 0;
 }
+
